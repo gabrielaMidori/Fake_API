@@ -1,0 +1,34 @@
+{
+  "personagens": [
+    {
+      "id": 1,
+      "nome": "Polly",
+      "img": "https://i.pinimg.com/564x/a9/a4/2d/a9a42dfde377d4dfe78b0e428b197c1f.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Shani",
+      "img": "https://i.pinimg.com/564x/e5/6e/79/e56e79d96e9a991a756f0e51af237c40.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Kerstie",
+      "img": "https://i.pinimg.com/564x/51/a5/3e/51a53eae9a8518a2613fe12af0efc5d6.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Lea",
+      "img": "https://i.pinimg.com/564x/c1/d6/f6/c1d6f6221224e14df6fed7b4213d9e20.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Lila",
+      "img": "https://i.pinimg.com/564x/ee/bc/c5/eebcc5a8b3d23bb80b022c6dc668570d.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Pia",
+      "img": "https://i.pinimg.com/564x/92/bf/52/92bf524391cf1b7a7912a7b2b3a897e4.jpg"
+    }
+  ]
+}
