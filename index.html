@@ -162,19 +162,21 @@
                     }else{
                         count = 0;
                     }
-                        setTimeout("moveSlideShow()", time);//método setTimeout() - define um timer que pode executar uma função ou um bloco de código específico
-                    }
+                        setTimeout("moveSlideShow()", time);
 
                 window.onload = moveSlideShow; //o evento onload carrega o objeto
                 
                 //"Divisão de código"
-				const url = "https://my-json-server.typicode.com/gabrielaMidori/Fake_API";
-				
-				function atribuirDados() {
-					const resp = fetch(url);
-					const obj = resp.json; 
-				}
-                
+		const url = "https://my-json-server.typicode.com/gabrielaMidori/Fake_API/personagens";
+
+		fetch(url)
+		.then(data => {
+		return data.json();
+		})
+		.then(post => {
+		console.log(post.nome);
+		});
+	
             </script>
         </div>
         <div class="rodape">
